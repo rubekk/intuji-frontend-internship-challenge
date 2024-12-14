@@ -337,6 +337,7 @@ header {
 .testimonials-container {
     padding: 6rem 5.5rem;
     background-color: #FAFBFF;
+    position: relative;
 }
 
 .testimonials-boxes {
