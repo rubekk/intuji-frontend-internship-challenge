@@ -1,3 +1,5 @@
+AOS.init();
+
 const faqs = document.querySelectorAll('.faq');
 
 faqs.forEach((faq) => {
