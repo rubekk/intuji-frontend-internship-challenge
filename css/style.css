@@ -52,13 +52,15 @@ header {
     font-size: .8rem;
 }
 
-.sign-in-btn, .see-how-btn {
+.sign-in-btn,
+.see-how-btn {
     margin-right: 1.5rem;
     background-color: transparent;
     border: none;
 }
 
-.start-free-btn, .get-started-btn  {
+.start-free-btn,
+.get-started-btn {
     padding: 1rem 2.5rem;
     color: #fff;
     background-color: #4F46BA;
@@ -73,11 +75,13 @@ header {
     align-items: center;
 }
 
-.landing-left, .landing-right {
+.landing-left,
+.landing-right {
     width: 50%;
 }
 
-.landing-container h1, h1 {
+.landing-container h1,
+h1 {
     font-size: 3rem;
 }
 
@@ -132,7 +136,10 @@ header {
 }
 
 /* companies container */
-.companies-container, .blogs-container, .faq-container, footer {
+.companies-container,
+.blogs-container,
+.faq-container,
+footer {
     padding: 4rem 5.5rem 3rem;
     background-color: #FAFBFF;
 }
@@ -154,10 +161,15 @@ header {
 .companies-img {
     margin-top: 2rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.75rem;
 }
 
 .companies-img img {
-    width: 100%;
+    width: 125px;
 }
 
 /* tracking container */
@@ -196,14 +208,17 @@ header {
     margin-top: 1rem;
 }
 
-.tracking-quote img, .quote-img {
+.tracking-quote img,
+.quote-img {
     position: absolute;
     top: -1.25rem;
     left: 2.25rem;
 }
 
 /* tracking-boxes */
-.tracking-boxes, .tracking-mid, .tracking-bottom {
+.tracking-boxes,
+.tracking-mid,
+.tracking-bottom {
     margin-top: 4rem;
     display: flex;
     justify-content: space-between;
@@ -236,7 +251,8 @@ header {
     left: 1rem;
 }
 
-.tracking-boxes h2, .tracking-boxes p {
+.tracking-boxes h2,
+.tracking-boxes p {
     text-align: center;
 }
 
@@ -250,11 +266,13 @@ header {
 }
 
 /* tracking mid */
-.tracking-mid-left, .tracking-bottom-right {
+.tracking-mid-left,
+.tracking-bottom-right {
     width: 50%;
 }
 
-.tracking-mid-left img, .tracking-bottom-right img {
+.tracking-mid-left img,
+.tracking-bottom-right img {
     width: 100%;
 }
 
@@ -308,7 +326,8 @@ header {
     margin-top: 1.5rem;
 }
 
-.b1 h3, .b2 h3 {
+.b1 h3,
+.b2 h3 {
     margin: 1.5rem 0;
 }
 
@@ -316,7 +335,8 @@ header {
     font-size: .9rem;
 }
 
-.b1, .b2 {
+.b1,
+.b2 {
     padding-top: 5rem;
 }
 
@@ -328,7 +348,8 @@ header {
     grid-area: 1 / 2 / 3 / 2;
 }
 
-.b3, .b4 {
+.b3,
+.b4 {
     display: flex;
     align-items: center;
 }
@@ -413,7 +434,8 @@ header {
     justify-content: space-between;
 }
 
-.hbox-left, .bbox-text {
+.hbox-left,
+.bbox-text {
     padding: 1rem;
 }
 
@@ -454,7 +476,8 @@ header {
     margin: 1rem 0 2rem;
 }
 
-.bbox-img, .bbox-img img{
+.bbox-img,
+.bbox-img img {
     width: 100%;
 }
 
@@ -498,7 +521,7 @@ header {
 .faq-right {
     padding: 2rem;
     height: 100%;
-    text-align: center; 
+    text-align: center;
     background-color: #fff;
     border: 1px solid #cfcfcf;
     border-radius: 7px;
@@ -513,7 +536,8 @@ header {
     margin: 2rem 0 5rem;
 }
 
-.faq-right button, .cta-container button {
+.faq-right button,
+.cta-container button {
     padding: 1.5rem 0;
     width: 100%;
     color: #fff;
@@ -549,7 +573,8 @@ footer {
     justify-content: space-between;
 }
 
-.medias p, .inp {
+.medias p,
+.inp {
     margin: 1.5rem 0;
     color: #757095;
 }
@@ -560,11 +585,13 @@ footer {
     gap: 1rem;
 }
 
-.company-links, .resources-links {
+.company-links,
+.resources-links {
     margin: 1.5rem 0;
 }
 
-.company-links li, .resources-links li {
+.company-links li,
+.resources-links li {
     margin: 1.25rem 0;
 }
 
@@ -602,4 +629,3 @@ footer {
 .copyright {
     text-align: center;
 }
-
