@@ -132,6 +132,8 @@ h1 {
 }
 
 .landing-right {
+    display: flex;
+    justify-content: space-around;
     transform: translateY(4px);
 }
 
@@ -181,7 +183,7 @@ footer {
 /* tracking top */
 .tracking-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
